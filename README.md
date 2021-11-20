@@ -19,6 +19,7 @@ tmplType('abc is {0}, name is {1}');              // SIMPLE
 tmplType('abc is {age}, name is {person.name}');  // SIMPLE
 tmplType('abc is ${name}');                       // LITERAL
 tmplType('abc is ${{env.home}}');                 // DOUBLE
+tmplType('abc is aric.');                         // undefined
 ```
 
 ## license
