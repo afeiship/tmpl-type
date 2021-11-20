@@ -15,7 +15,10 @@ npm install @jswork/tmpl-type
 ```js
 import tmplType from '@jswork/tmpl-type';
 
-// usage goes here.
+tmplType('abc is {0}, name is {1}');              // SIMPLE
+tmplType('abc is {age}, name is {person.name}');  // SIMPLE
+tmplType('abc is ${name}');                       // LITERAL
+tmplType('abc is ${{env.home}}');                 // DOUBLE
 ```
 
 ## license
