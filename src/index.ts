@@ -1,8 +1,8 @@
 /**
-- {abc}-ac : SIMPLE
-- ${xx}: LITERAL
-- ${{abc}}: DOUBLE
- */
+  - {abc}-ac : SIMPLE
+  - ${xx}: LITERAL
+  - ${{abc}}: DOUBLE
+*/
 
 const items = [
   { type: 'DOUBLE', value: /\${{(.*?)}}/ },
